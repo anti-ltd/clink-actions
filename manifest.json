@@ -1,0 +1,71 @@
+{
+  "version": "latest",
+  "actions": [
+    {
+      "id": "reverse",
+      "name": "Reverse",
+      "version": "latest",
+      "asset": {
+        "path": "reverse.clinkext",
+        "url": "https://github.com/anti-ltd/clink-actions/releases/download/latest/reverse.clinkext",
+        "sha256": "d9ef77c5ad7681a5909f8e6793160d285093c994a96d6f2c46e2d39f40c00040",
+        "byteCount": 213
+      }
+    },
+    {
+      "id": "shrug",
+      "name": "Shrug",
+      "version": "latest",
+      "asset": {
+        "path": "shrug.clinkext",
+        "url": "https://github.com/anti-ltd/clink-actions/releases/download/latest/shrug.clinkext",
+        "sha256": "012ec8b0786ca1fbdd707e39a4ea3e950c9a7af362e43a48bd9af0937d2b2076",
+        "byteCount": 206
+      }
+    },
+    {
+      "id": "snake-case",
+      "name": "snake_case",
+      "version": "latest",
+      "asset": {
+        "path": "snake-case.clinkext",
+        "url": "https://github.com/anti-ltd/clink-actions/releases/download/latest/snake-case.clinkext",
+        "sha256": "05f33877e5cbf5d8a4222edeba986ab21b4c894c9344d6e3bf936766a1812747",
+        "byteCount": 237
+      }
+    },
+    {
+      "id": "title-case",
+      "name": "Title Case",
+      "version": "latest",
+      "asset": {
+        "path": "title-case.clinkext",
+        "url": "https://github.com/anti-ltd/clink-actions/releases/download/latest/title-case.clinkext",
+        "sha256": "52db976a21658a1561e7ba05d3254dbe9017bf5e449b842ab1d7d3b7365c9040",
+        "byteCount": 203
+      }
+    },
+    {
+      "id": "uppercase",
+      "name": "UPPERCASE",
+      "version": "latest",
+      "asset": {
+        "path": "uppercase.clinkext",
+        "url": "https://github.com/anti-ltd/clink-actions/releases/download/latest/uppercase.clinkext",
+        "sha256": "38b2fe755a8a5c8428c8e2a6639fad4ff834ab25ded767a0dcc68ca0871a2411",
+        "byteCount": 218
+      }
+    },
+    {
+      "id": "word-count",
+      "name": "Word Count",
+      "version": "latest",
+      "asset": {
+        "path": "word-count.clinkext",
+        "url": "https://github.com/anti-ltd/clink-actions/releases/download/latest/word-count.clinkext",
+        "sha256": "c94a1e83487c3687400a48faebaea9b2c91d3250c1f7e473572074be852356b8",
+        "byteCount": 237
+      }
+    }
+  ]
+}
