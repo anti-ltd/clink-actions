@@ -39,6 +39,16 @@ The files live in [`Actions/`](Actions). They are small and readable, so they ar
 
 Open **General → Repositories** in Clink and add `owner/repository`. Then open **Tools → Custom Actions** and select your repository. Clink asks for explicit permission before downloading action logic.
 
+## Make an action with an AI agent
+
+[`PROMPT.md`](PROMPT.md) is a ready-to-use brief for an AI coding agent. Fork the repository, open the fork in your agent, and say:
+
+```text
+Read PROMPT.md and create an action that [describe the text transformation].
+```
+
+The prompt restricts the agent to Clink's small `transform(text)` contract and asks it to consider edge cases. Review the generated source and test it in Clink before publishing; action repositories require a separate trust decision from people who install them.
+
 ## What Clink verifies
 
 Clink accepts only public HTTPS GitHub release files from the repository you added. It verifies the manifest, SHA-256 hash, byte count, `.clinkext` type, and constrained `transform(text)` contract.
