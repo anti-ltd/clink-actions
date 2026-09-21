@@ -8,7 +8,7 @@ actions = []
 for path in sorted((root / "Actions").glob("*.clinkext")):
     raw = path.read_bytes()
     action = json.loads(raw)
-    actions.append({"id": path.stem, "name": action["name"], "version": "latest", "asset": {
+    actions.append({"id": path.stem, "name": action["name"], "icon": action.get("icon", ""), "summary": action.get("summary", ""), "version": "latest", "asset": {
         "path": path.name,
         "url": f"https://github.com/{repository}/releases/download/latest/{path.name}",
         "sha256": hashlib.sha256(raw).hexdigest(), "byteCount": len(raw)}})

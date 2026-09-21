@@ -4,6 +4,8 @@
     {
       "id": "reverse",
       "name": "Reverse",
+      "icon": "arrow.left.arrow.right",
+      "summary": "Flip the text backwards",
       "version": "latest",
       "asset": {
         "path": "reverse.clinkext",
@@ -15,6 +17,8 @@
     {
       "id": "shrug",
       "name": "Shrug",
+      "icon": "face.dashed",
+      "summary": "Insert a shrug emoticon",
       "version": "latest",
       "asset": {
         "path": "shrug.clinkext",
@@ -26,6 +30,8 @@
     {
       "id": "snake-case",
       "name": "snake_case",
+      "icon": "lasso",
+      "summary": "Convert spaces to underscores",
       "version": "latest",
       "asset": {
         "path": "snake-case.clinkext",
@@ -37,6 +43,8 @@
     {
       "id": "title-case",
       "name": "Title Case",
+      "icon": "textformat",
+      "summary": "Capitalize Each Word",
       "version": "latest",
       "asset": {
         "path": "title-case.clinkext",
@@ -48,6 +56,8 @@
     {
       "id": "uppercase",
       "name": "UPPERCASE",
+      "icon": "textformat.size.larger",
+      "summary": "Shout the current word",
       "version": "latest",
       "asset": {
         "path": "uppercase.clinkext",
@@ -59,6 +69,8 @@
     {
       "id": "word-count",
       "name": "Word Count",
+      "icon": "number",
+      "summary": "Count words before the cursor",
       "version": "latest",
       "asset": {
         "path": "word-count.clinkext",
